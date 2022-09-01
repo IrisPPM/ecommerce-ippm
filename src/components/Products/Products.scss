@@ -30,10 +30,9 @@
 
   
   .product__content {
-    display: block;
-    padding: 134% 0 0 0;
-    background:rgba(blue, .1);
+    display: inline-block;   
     position: relative;
+    
   }
   
   .product__img{
@@ -119,11 +118,29 @@
     text-align: center;
   }
   
-  .product__price {
-    display: block;
-    text-align: center;
-    margin-top: .3em;
-    color:#000;
-  }
+  
   
   //https://codepen.io/amody/pen/XdOOdM
+
+  .btn__card{
+    justify-content: end;
+    height: 20px;
+    	text-align:center;
+			text-decoration: none;
+      font-family: 'Helvetica Neue', Helvetica, sans-serif;
+      display:inline-block;
+			color: #FFF;
+			background: #f69d03;
+			padding: 15px 30px;
+			white-space: nowrap;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			margin: 10px 5px;
+			-webkit-transition: all 0.2s ease-in-out;
+			-ms-transition: all 0.2s ease-in-out;
+			-moz-transition: all 0.2s ease-in-out;
+			-o-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+}
+  
